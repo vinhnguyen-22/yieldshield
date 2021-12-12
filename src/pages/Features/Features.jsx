@@ -1,16 +1,15 @@
 import { Box, Container, Grid, Typography } from "@mui/material";
 import Aos from "aos";
-import { TextField } from "material-ui";
 import React, { useEffect } from "react";
+import automaticRestakeImg from "../../assets/img/img2.webp";
+import riskLevelImg from "../../assets/img/img3.webp";
+import stopLoss from "../../assets/img/stoploss.webp";
 import Cards from "../../components/Cards/Cards.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
 import Layout from "../../components/Layout/Layout";
 import PageFooter from "../../components/PageFooter/PageFooter.jsx";
 import PageHeader from "../../components/PageHeader/PageHeader.jsx";
 import { useStyles } from "./Features.js";
-import stopLoss from "../../assets/img/stoploss.webp";
-import automaticRestakeImg from "../../assets/img/img2.webp";
-import riskLevelImg from "../../assets/img/img3.webp";
 
 const Features = (props) => {
   const classes = useStyles();

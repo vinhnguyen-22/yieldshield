@@ -1,16 +1,14 @@
 import {
-  Container,
-  Typography,
   Button,
+  Container,
   Grid,
-  TextField,
   Link,
+  TextField,
+  Typography,
 } from "@mui/material";
 import { Box } from "@mui/system";
 import React from "react";
 import { useStyles } from "./PageFooter";
-import TwitterIcon from "@mui/icons-material/Twitter";
-import TelegramIcon from "@mui/icons-material/Telegram";
 
 const PageFooter = () => {
   const classes = useStyles();

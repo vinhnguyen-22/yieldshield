@@ -1,19 +1,10 @@
 import { AppBar } from "@material-ui/core";
-import { red } from "@material-ui/core/colors";
 import { createMuiTheme, MuiThemeProvider } from "@material-ui/core/styles";
-import {
-  Box,
-  Button,
-  CssBaseline,
-  Link,
-  Typography,
-  useScrollTrigger,
-} from "@mui/material";
+import { Box, Button, CssBaseline, Link } from "@mui/material";
 import Toolbar from "@mui/material/Toolbar";
-import PropTypes from "prop-types";
 import React, { useState } from "react";
-import { useStyles } from "./Topnav.js";
 import yieldLogo from "../../assets/img/yeildLogo.webp";
+import { useStyles } from "./Topnav.js";
 
 const theme = createMuiTheme({
   palette: {

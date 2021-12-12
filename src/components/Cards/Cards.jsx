@@ -1,10 +1,7 @@
-import { Typography, Button, CardActionArea, CardActions } from "@mui/material";
-import React from "react";
+import { createMuiTheme, MuiThemeProvider } from "@material-ui/core/styles";
+import { Button, CardActionArea, CardActions, Typography } from "@mui/material";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
-import CardMedia from "@mui/material/CardMedia";
-import { useStyles } from "./Cards";
-import { createMuiTheme, MuiThemeProvider } from "@material-ui/core/styles";
 
 const theme = createMuiTheme({
   components: {
@@ -22,8 +19,6 @@ const theme = createMuiTheme({
   },
 });
 const Cards = ({ buttonText, subText, mainText }) => {
-  const classes = useStyles();
-
   return (
     <MuiThemeProvider theme={theme}>
       <Card

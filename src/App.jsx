@@ -1,8 +1,6 @@
 import { createMuiTheme } from "@material-ui/core";
 import { CssBaseline } from "@mui/material";
-import Aos from "aos";
 import { MuiThemeProvider } from "material-ui/styles";
-import { useEffect } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Features from "./pages/Features/Features.jsx";
