@@ -45,11 +45,7 @@ const Layout = (props) => {
     <Box component="div" sx={{ backgroundColor: "#100213" }}>
       <div id="back-to-top-anchor"></div>
       <Topnav props={props} />
-      <ScrollTop>
-        <Fab color="secondary" size="small" aria-label="scroll back to top">
-          <KeyboardArrowUpIcon />
-        </Fab>
-      </ScrollTop>
+
       {props.children}
     </Box>
   );
