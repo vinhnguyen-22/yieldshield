@@ -1,5 +1,4 @@
-import { Fab, makeStyles } from "@material-ui/core";
-import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
+import { makeStyles } from "@material-ui/core";
 import { Box, useScrollTrigger, Zoom } from "@mui/material";
 import PropTypes from "prop-types";
 import React from "react";
